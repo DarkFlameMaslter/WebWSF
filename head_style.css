@@ -1,0 +1,191 @@
+
+.page_info{
+    background-color: gray;
+    border: none;
+    width: 100%;
+    height: 100vh;
+}
+
+p{
+    color: black;
+    size: 20px;
+}
+
+.navigate_panel{
+    /* width: 100%; */
+    height: 10vh;
+    color: rgb(0, 0, 0);
+    
+    margin-top: 1vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+
+    /* border-style: solid;
+    border-color: black; */
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px gray;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    background-image: url("img_source/icons/navigation_icon/LogoWS&F.png");
+
+    background-position: center;
+    background-size: 6%;
+    background-repeat: no-repeat;
+
+}
+
+.nav_icon{
+    width: auto;
+    height: fit-content;
+}
+
+#facebook_icon{
+    width: 50px;
+	height: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+    background-image: url("img_source/icons/navigation_icon/fb_icon.png");
+    margin-left: 3vh;
+}
+.navigate_panel h3{
+    margin-left: 70%;
+    /* right: 10% */
+}
+
+#youtube_icon{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+    background-image: url("img_source/icons/navigation_icon/youtube_icon.png");
+}
+
+#twitter_icon{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+    background-image: url("img_source/icons/navigation_icon/twitter_icon.png");
+}
+
+#tiktok_icon{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+    background-image: url("img_source/icons/navigation_icon/tiktok_icon.png");
+}
+
+#kronii_feedback_icon{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+    background-image: url("img_source/icons/navigation_icon/kronii_feedback_icon.png");
+    justify-self: right;
+    margin-right: 3px;
+}
+
+
+
+#header_page{
+    background-image: url("img_source/background_image/header_page.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#introduction_page{
+    background-image: url("img_source/background_image/introduction_page.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#community_system{
+    background-image: url("img_source/background_image/comunity_system.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#projects_page{
+    background-image: url("img_source/background_image/projects_page.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#contactList_page{
+    background-image: url("img_source/background_image/contactList_page.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#partner_page{
+    background-image: url("img_source/background_image/partner_page.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.side_navigation_bar{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 28%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #000000;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    /* justify-self: left; */
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+}
+
+.side_navigation_bar img{
+    height: 100px;
+    width: auto;
+    margin-top: 5vh;
+    align-items: center;
+    position: fixed;
+}
+
+.navigation_box{
+    height: 60%;
+    width: 50%;
+    background-color: rgb(39, 39, 39);
+    margin-top: 25vh;
+    border-radius: 10px;
+    border: none;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.navigation_box table{
+    height: 97%;
+    width: 90%;
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
